@@ -1,6 +1,5 @@
-ws = get_world_size()
-clear()
 from Util import *
+clear()
 till_e()
 
 def check():

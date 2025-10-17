@@ -1,8 +1,6 @@
-change_hat(Hats.Brown_Hat)
-
-
-clear()
 from Util import *
+change_hat(Hats.Purple_Hat)
+clear()
 till_e()
 
 def plant_tree_carrot(x, y):

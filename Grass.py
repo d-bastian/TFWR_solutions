@@ -1,7 +1,6 @@
+from Util import *
 clear()
-change_hat(Hats.Brown_Hat)
-
-ws = get_world_size()
+change_hat(Hats.Straw_Hat)
 
 while True:
 	for x in range(ws):
