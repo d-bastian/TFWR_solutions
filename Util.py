@@ -34,10 +34,23 @@ def move_to(x ,y):
 def get_pos():
 	return get_pos_x(), get_pos_y()
 	
-def bubble_sort(list):
-	n = len(list)
-	for i in range(n):
-		for j in range(0, n - i - 1):
-			if list[j] < list[j + 1]:
-				list[j], list[j + 1] = list[j + 1], list[j]
-	return list
+def quick_sort(arr):
+	if len(arr) <= 1:
+		return arr
+	
+	pv = arr[len(arr) // 2]
+	left = []
+	middle = []
+	right = []
+	
+	i = 0
+	while i < len(arr):
+		if arr[i][0] > pv[0]:
+			left.append(arr[i])
+		elif arr[i][0] == pv[0]:
+			middle.append(arr[i])
+		else:
+			right.append(arr[i])
+		i += 1
+	
+	return quick_sort(left) + middle + quick_sort(right)

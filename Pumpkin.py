@@ -15,6 +15,7 @@ while True:
 		for y in range(ws):
 			plant(Entities.Pumpkin)
 			if get_entity_type() == Entities.Dead_Pumpkin:
+				use_item(Items.Weird_Substance)
 				plant(Entities.Pumpkin)
 			move(North)
 			check_water()
