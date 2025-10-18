@@ -1,6 +1,6 @@
 from Util import *
-clear()
-till_e()
+
+setup_farm()
 
 def check():
 	move_to(0,0)

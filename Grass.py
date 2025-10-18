@@ -1,4 +1,5 @@
 from Util import *
+
 clear()
 change_hat(Hats.Straw_Hat)
 

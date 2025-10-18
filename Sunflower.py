@@ -1,6 +1,6 @@
 from Util import *
-clear()
-till_e()
+setup_farm()
+
 min_flower = 7
 list = []
 

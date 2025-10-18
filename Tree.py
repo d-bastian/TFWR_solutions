@@ -1,7 +1,7 @@
 from Util import *
+
+setup_farm()
 change_hat(Hats.Purple_Hat)
-clear()
-till_e()
 
 def plant_tree(x, y):
 	if (x+y) % 2 == 0:

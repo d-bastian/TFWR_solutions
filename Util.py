@@ -1,12 +1,14 @@
 ws = get_world_size()
 
-def till_e():
-	for x in range(get_world_size()):
-		for y in range(get_world_size()):
+def setup_farm():
+	clear()
+	for x in range(ws):
+		for y in range(ws):
 			if get_ground_type() != Grounds.Soil:
 				till()
 			move(North)
 		move(East)
+
 def check_water():
 	if num_items(Items.Water) > 0 and get_water() < 0.3:
 		use_item(Items.Water)

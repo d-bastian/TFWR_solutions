@@ -1,8 +1,7 @@
 from Util import *
 
+setup_farm()
 change_hat(Hats.Wizard_Hat)
-clear()
-till_e()
 
 dirs = [North, East, South, West]
 
