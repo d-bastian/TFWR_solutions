@@ -1,11 +1,10 @@
 from Util import *
 
 change_hat(Hats.Wizard_Hat)
-#clear()
-#till_e()
+clear()
+till_e()
 
 dirs = [North, East, South, West]
-to_swap = [North, East]
 
 def sort_cactus():
 	
@@ -16,11 +15,9 @@ def sort_cactus():
 		if measure(dir) == None:
 			return
 		
-	for _ in dirs:
-		if measure() > measure(dirs[0]):
-			swap(dirs[0])
-		if measure() > measure(dirs[1]):
-			swap(dirs[1])
+	for i in range(2):
+		if measure() > measure(dirs[i]):
+			swap(dirs[i])
 		
 while True:
 	iter = 0
