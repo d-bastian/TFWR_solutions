@@ -9,6 +9,5 @@ def drone_grass():
 			move(North)
 
 while True:
-	for i in range(max_drones()+1):
-		move_to(i, 0)
-		spawn_drone(drone_grass)
+	if spawn_drone(drone_grass):
+		move(East)
