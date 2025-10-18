@@ -10,7 +10,7 @@ def setup_farm():
 		move(East)
 
 def check_water():
-	if num_items(Items.Water) > 0 and get_water() < 0.3:
+	if num_items(Items.Water) > 0 and get_water() < 0.65:
 		use_item(Items.Water)
 		
 def move_to(x ,y):
