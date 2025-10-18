@@ -8,7 +8,7 @@ def till_e():
 			move(North)
 		move(East)
 def check_water():
-	if num_items(Items.Water) > 0 and get_water() < 0.2:
+	if num_items(Items.Water) > 0 and get_water() < 0.3:
 		use_item(Items.Water)
 		
 def move_to(x ,y):
