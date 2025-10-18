@@ -1,7 +1,6 @@
 from Util import *
 change_hat(Hats.Purple_Hat)
-clear()
-till_e()
+setup_farm()
 
 while True:
 	for x in range(ws):
