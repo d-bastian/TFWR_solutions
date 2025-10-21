@@ -1,5 +1,9 @@
 ws = get_world_size()
 
+def c_harvest():
+	if can_harvest():
+		harvest()
+
 def setup_farm():
 	clear()
 	for x in range(ws):

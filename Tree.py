@@ -12,9 +12,7 @@ def plant_tree(x, y):
 while True:
 	for x in range(ws):
 		for y in range(ws):
+			c_harvest()
 			plant_tree(x, y)
-			if can_harvest():
-				harvest()
-				plant_tree(x, y)
 			move(North)
 		move(East)

@@ -4,8 +4,7 @@ clear()
 def drone_grass():
 	while True:
 		for y in range(ws):
-			if can_harvest():
-				harvest()
+			c_harvest()
 			move(North)
 
 while True:

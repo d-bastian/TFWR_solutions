@@ -29,4 +29,4 @@ while True:
 			move(East)
 			iter += 1
 	move_to(ws-1,ws-1)
-	harvest()	 
+	c_harvest() 
