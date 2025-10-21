@@ -5,7 +5,6 @@ setup_farm()
 while True:
 	for x in range(ws):
 		for y in range(ws):
-			plant(Entities.Carrot)
 			c_harvest()
 			plant(Entities.Carrot)
 			move(North)

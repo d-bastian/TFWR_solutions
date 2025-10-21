@@ -9,3 +9,7 @@ Copy `Util.py` and the desired solution in two functions. Then just press run.
 - get_pos() Returns current x,y position of the drone
 - check_water() Checks for the water level beneath the drone and rewaters if below threshhold
 - setup_farm() Tills the farm
+
+## Credits
+
+- Editorial from ninewiki for multi-drone solutions
