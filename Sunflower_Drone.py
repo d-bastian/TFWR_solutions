@@ -1,9 +1,9 @@
 from Util import *
 
-setup_farm()
-
 def sunflower():
 	for y in range(ws):
+		if get_ground_type() != Grounds.Soil:
+			till()
 		check_water()
 		c_harvest()
 		plant(Entities.Sunflower)
